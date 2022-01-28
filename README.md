@@ -1,29 +1,20 @@
-# MLFQ
-multilevel feedback queue scheduling
-##############################
-#                            #
-#       sina yademellat      #
-#                            #
-#            OS				       #
-#                            #
-#      ---------------       #
-#                            #
-#            MLQ             #
-#        Q1 --> RR           #
-#        Q2 --> HRRN         #
-#                            #
-##############################
-
-input(.txt):
-        >> Dispatch Latency
-        >> Quantum
-        >> Pi:Arrivaltime,Bursttime(CPU,IO,...,CPU)
-output(.txt):
-                 ------------------------------------------------------------------------------------------------------------------
-                |Pi		|Pj		|P...       |pn		
-                ------------------------------------------------------------------------------------------------------------------
-  (terminate)   x		  y		  ...         n       		
-                CPU Utilization : 
-                Average Wating Time : 
-                Average Turnaround Time : 
-                Average Response Time : 
+# MLFQ  <br />   
+multilevel feedback queue scheduling    <br />   
+<br />   
+ Q1 --> RR  <br />
+ Q2 --> HRRN   <br />
+        <br />   
+ input(.txt): <br />
+        >> Dispatch Latency <br />
+        >> Quantum <br />
+        >> Pi:Arrivaltime,Bursttime(CPU,IO,...,CPU) <br />
+output(.txt): <br />
+                 -------------- <br />
+                |Pi	|P...   <br />
+                -------------- <br />
+  (terminate)   x       ...            <br />    		
+                CPU Utilization :       <br />
+                Average Wating Time :   <br />
+                Average Turnaround Time : <br />   
+                Average Response Time : <br />   
+<br />   
